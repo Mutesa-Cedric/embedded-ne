@@ -135,8 +135,8 @@ if len(faces) > 0:
         # Display the video frame with rectangle
         cv2.imshow("Dataset Generating...", image)
 
-        # To stop taking video, press 'q' key or if image count reaches 50
-        if cv2.waitKey(1) & 0xFF == ord('q') or image_count >= 50:
+        # To stop taking video, press 'q' key or if image count reaches 100
+        if cv2.waitKey(1) & 0xFF == ord('q') or image_count >= 100:
             break
 
 # Release the camera and close all windows
